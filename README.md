@@ -32,5 +32,7 @@ git push -u origin main
 
 Now you should have successfully pushed! Go check the repo and double check your change is there.
 
+For future reference run ` git fetch origin BRANCH` to get the changes someone might of made to your branch(This is a very safe method that wont affect your code) then `git merge origin BRANCH` to merge. 
+
 # Image Processing and Tracking
 This submit was from a branch.
