@@ -1,5 +1,7 @@
 # CLICK BC Github Training mo
 DONT PUSH REAL CODE HERE. THIS IS TRAINING GROUNDS.
+
+Please feel free to update!
 # How do I clone?
 Make sure to add your id_rsa.pub (public rsa key) to your git account otherwise this will not work!!!! 
 Click the 'Code' drop down in the repo page and copy the text given when you select ssh. AKA:
