@@ -31,3 +31,6 @@ git push -u origin main
 *origin* is the conventional shorthand name of the url for the remote repository (usually in GitHub or another cloud git repository provider) for your project. *main* refers to the branch of the project --(ideally each person will make a branch to work on a copy of the main codebase and then continously integrates their branch into main branch with others. For now Ill show you how to push main.)
 
 Now you should have successfully pushed! Go check the repo and double check your change is there.
+
+# Image Processing and Tracking
+This submit was from a branch.
