@@ -32,6 +32,9 @@ git push -u origin main
 
 Now you should have successfully pushed! Go check the repo and double check your change is there.
 
+
+# Image Processing and Tracking
+This submit was from a branch.
 # I want to work without worrying about messing up someone elses edits
 Welcome my friend to branching!!!
 
@@ -65,5 +68,5 @@ Awesome! If you run into errors I wish you best of luck with stackoverflow or fe
 
 Navigate to the github page of the project and look for a drop down menu button called `main`. Then select your branch and you should see your changes! Also note how the main branch hasnt changed.
 ## Merging
-Make sure the receiving branch and the merging branch are up-to-date with the latest remote changes. Execute git fetch to pull the latest remote commits. Once the fetch is completed ensure the main branch has the latest updates by executing git pull.
+For future reference run ` git fetch origin BRANCH` to get the changes someone might of made to your branch(This is a very safe method that wont affect your code) then `git merge origin BRANCH` to merge. 
 
