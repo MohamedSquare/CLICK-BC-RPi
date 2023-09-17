@@ -1,6 +1,5 @@
-# CLICK BC RPi
-Welcome to CLICK BC RPi repo for PAT. 
-
+# CLICK BC Github Training
+DONT PUSH REAL CODE HERE. THIS IS TRAINING GROUNDS.
 # How do I clone?
 Make sure to add your id_rsa.pub (public rsa key) to your git account otherwise this will not work!!!! 
 Click the 'Code' drop down in the repo page and copy the text given when you select ssh. AKA:
