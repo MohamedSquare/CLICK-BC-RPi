@@ -4,7 +4,7 @@ DONT PUSH REAL CODE HERE. THIS IS TRAINING GROUNDS.
 Make sure to add your id_rsa.pub (public rsa key) to your git account otherwise this will not work!!!! 
 Click the 'Code' drop down in the repo page and copy the text given when you select ssh. AKA:
 ```
-git clone git@github.com:MohamedSquare/CLICK-BC-RPi.git
+git clone git@github.com:MohamedSquare/CLICK-Github-Training.git
 ```
 In your terminal paste this line and it will download the repo. 
 Cool - Now you want to make your first commit to the repo. Navigate to the folder for this repo that you downloaded then edit the README.md
