@@ -68,5 +68,19 @@ Awesome! If you run into errors I wish you best of luck with stackoverflow or fe
 
 Navigate to the github page of the project and look for a drop down menu button called `main`. Then select your branch and you should see your changes! Also note how the main branch hasnt changed.
 ## Merging
-For future reference run ` git fetch origin BRANCH` to get the changes someone might of made to your branch(This is a very safe method that wont affect your code) then `git merge origin BRANCH` to merge. 
+For future reference run ` git fetch` to get the changes someone might of made to your branch(This is a very safe method that wont affect your code) then `git merge` to merge. You can do `git pull` but it will make decisions for you.
 
+Lets merge your branch 
+
+```
+git checkout BRANCH
+git merge main
+```
+Resolve conflicts you see and then 
+
+```
+git add .
+git commit -m "what changes"
+git push
+```
+Now go to the github repo and follow the instructions regarding the pull request. Leave detail comments wherever given the option. 
