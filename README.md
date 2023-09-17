@@ -31,3 +31,39 @@ git push -u origin main
 *origin* is the conventional shorthand name of the url for the remote repository (usually in GitHub or another cloud git repository provider) for your project. *main* refers to the branch of the project --(ideally each person will make a branch to work on a copy of the main codebase and then continously integrates their branch into main branch with others. For now Ill show you how to push main.)
 
 Now you should have successfully pushed! Go check the repo and double check your change is there.
+
+# I want to work without worrying about messing up someone elses edits
+Welcome my friend to branching!!!
+
+So you want to develop a new feature(capability or code) but don't want people to mess with your edits or to mess with their edits. You want to be a team player and so you decide to learn branching and merging. 
+
+Lets create a branch for your feature! Navigate on your terminal to the project repo and run the following
+```
+git branch WRITE-A-BRANCH-NAME
+```
+Please choose a good name - "JesusPleaseLetThisFeatureWorkWhenIMerge" is insufficient but I hope your prayers are accepted.
+
+Now you have created a branch, lets see all the available branches.
+```
+git branch
+```
+You should see yours and other! Now lets switch to your branch. 
+```
+git checkout INSERT-YOUR-BRANCH-NAME    
+```
+A top tip is that when you write `git checkout` you can click *tab* to list the options you have and autocomplete the command by writing a couple letters of the option you want and hitting tab many times to feel pro.
+
+OK - now command `git branch` again and you should see a `*` next to your branch. You can now go wild at your own risk, the wilder your code changes are the more likely you will have to deal with conflict resolution later on if it touches someone elses code. So maybe have a little chat with the person whose coding youre interfacing with.
+
+Now you should edit the `README.md` file and commit those changes.
+```
+git add README.md
+git commit -m "my first commit on my branch"
+git push origin BRANCH-NAME
+```
+Awesome! If you run into errors I wish you best of luck with stackoverflow or feel free to contact me.
+
+Navigate to the github page of the project and look for a drop down menu button called `main`. Then select your branch and you should see your changes! Also note how the main branch hasnt changed.
+## Merging
+Make sure the receiving branch and the merging branch are up-to-date with the latest remote changes. Execute git fetch to pull the latest remote commits. Once the fetch is completed ensure the main branch has the latest updates by executing git pull.
+
