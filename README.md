@@ -1,4 +1,4 @@
-# CLICK BC Github Training
+# CLICK BC Github Training m
 DONT PUSH REAL CODE HERE. THIS IS TRAINING GROUNDS.
 # How do I clone?
 Make sure to add your id_rsa.pub (public rsa key) to your git account otherwise this will not work!!!! 
